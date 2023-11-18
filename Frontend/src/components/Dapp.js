@@ -21,7 +21,7 @@ import coin from '../assets/coingif.gif'
 
 import '../index.css'
 
-const NETWORK_ID = '534351';
+const NETWORK_ID = '11155111';
 // This is an error code that indicates that the user canceled a transaction
 const ERROR_CODE_TX_REJECTED_BY_USER = 4001;
 
@@ -278,7 +278,7 @@ export class Dapp extends React.Component {
     }
     // if a different network is selected add the error to the state
     this.setState({ 
-      networkError: 'Please connect Metamask to Fe FUJI C-Chain Testnet'
+      networkError: 'Please connect Metamask to Sepolia Testnet'
     });
 
     return false;
